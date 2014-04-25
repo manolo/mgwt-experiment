@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html manifest="hybrid.appcache">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>MGWT Address book Example</title>
+    <link type="text/css" rel="stylesheet" href="VAADIN/themes/hybrid/styles.css">
+    <script type="text/javascript"
+            src="mgwt/mgwt.nocache.js"></script>
+</head>
+<body style="margin: 0">
+<script type="text/javascript">
+  window.vaadin = {};
+  window.vaadin.registerWidgetset = function(){console.log("registered")};
+  // Caused by: com.google.gwt.core.client.JavaScriptException: (TypeError) @com.vaadin.client.ApplicationConfiguration::registerCallback(Ljava/lang/String;)([string: 'mgwt']): $wnd.vaadin.registerWidgetset is not a function
+</script>
+</body>
+</html>

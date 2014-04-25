@@ -1,0 +1,17 @@
+.classpath
+.project
+.settings
+gwt-unitCache
+src/main/webapp/VAADIN/gwt-unitCache
+src/main/webapp/VAADIN/widgetsets
+src/main/webapp/VAADIN/themes/hybrid/styles.css
+src/main/webapp/classes
+src/main/webapp/mgwt/
+src/main/webapp/WEB-INF/deploy
+classes
+
+target
+*.launch
+rebel.xml
+.idea
+hybrid.iml
